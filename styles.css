@@ -1,0 +1,68 @@
+.font {
+    font-family: 'Modern Antiqua', cursive;
+}
+
+.input_field {
+    outline: 0;
+    width: 300px;
+    border: 0;
+    border-bottom: 2px dashed rgb(36, 32, 32);
+}
+
+.input_field:focus {
+    border-bottom: 2px solid black;
+}
+
+.input_field::placeholder {
+    color: aliceblue;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    word-break: break-all;
+    border: 1px solid rgb(33, 31, 31);
+    margin: 4px;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    justify-content: space-between;
+    background-color: #DBDFFD;
+}
+
+.icon {
+    width: 60px;
+}
+
+.icon i {
+
+    margin: 6px;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+.checked {
+    transition: .2s;
+    text-decoration: line-through;
+    background-color: lightgreen;
+}
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #B3E8E5;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2155CD;
+    border: 2px solid #B3E8E5;
+    border-radius: 100vw;
+}

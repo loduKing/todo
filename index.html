@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./styles.css">
+    <title>To do with jQuery</title>
+</head>
+
+<body class="bg-[#E8F9FD] w-[100vw] h-[100vh] flex justify-center items-center">
+    <div
+        class="container w-96 h-96 bg-[#2155CD] flex flex-col justify-start items-center rounded-xl opacity-90 text-white">
+        <span class="text-3xl font p-2">To Do List</span>
+        <input type="text" placeholder="Type Here..." name="ip" id="to-do" class="input_field bg-transparent">
+        <ul class="w-80 m-4 p-2 overflow-auto h-auto rounded" id="list">
+        </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
